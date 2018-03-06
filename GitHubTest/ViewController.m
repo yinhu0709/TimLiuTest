@@ -20,6 +20,10 @@
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, 10, 10, 120)];
     view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view];
+    UILabel *label = [[UILabel alloc]init];
+    label.frame = CGRectMake(29, 100, 100, 100);
+    label.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:label];
 }
 
 
